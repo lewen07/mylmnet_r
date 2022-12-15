@@ -1,0 +1,16 @@
+Package: mylmnet
+Title: CD for lmnet
+Version: 1.0
+Authors@R: 
+    person("Lewen", "Dai", , "lewen@umich.edu", role = c("aut", "cre"))
+Description: This pacakge re-implementated the coordinate algorithm for linear regression with elastic-net penalty.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+LinkingTo: Rcpp
+Imports: Rcpp
+NeedsCompilation: yes
+Packaged: 2022-12-15 05:29:05 UTC; maggieee
+Author: Lewen Dai [aut, cre]
+Maintainer: Lewen Dai <lewen@umich.edu>
