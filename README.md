@@ -5,7 +5,7 @@ Here is the example testing code
 ```{r}
 set.seed(615)
 alpha = 0.5
-lambda = 0
+lambda = c(0:10)
 n = 10000
 p = 200
 mu0 = runif(1) * 10
