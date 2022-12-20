@@ -13,5 +13,5 @@ std0 = runif(1) * 10
 X = matrix(rnorm(n*p,mu0, std0),n,p)
 beta = rnorm(p) * 10
 Y = rnorm(n) + X%*% beta + 10
-fit = cd_normalCC(X,Y,alpha = alpha,lambda = lambda)
+fit = mylmnet:::cd_normalCC(X,Y,alpha = alpha,lambda = lambda)
 ```
